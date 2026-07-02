@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		293B72862FF52403008FD4C9 /* Xcode demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293B72862FF52403008FD4C9 /* xcode-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		293B72872FF52403008FD4C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				293B72862FF52403008FD4C9 /* Xcode demo.app */,
+				293B72862FF52403008FD4C9 /* xcode-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		293B72852FF52403008FD4C9 /* Xcode demo */ = {
+		293B72852FF52403008FD4C9 /* xcode-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 293B72912FF5240D008FD4C9 /* Build configuration list for PBXNativeTarget "Xcode demo" */;
+			buildConfigurationList = 293B72912FF5240D008FD4C9 /* Build configuration list for PBXNativeTarget "xcode-demo" */;
 			buildPhases = (
 				293B72822FF52403008FD4C9 /* Sources */,
 				293B72832FF52403008FD4C9 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				293B72882FF52403008FD4C9 /* Xcode demo */,
 			);
-			name = "Xcode demo";
+			name = "xcode-demo";
 			packageProductDependencies = (
 			);
 			productName = "Xcode demo";
-			productReference = 293B72862FF52403008FD4C9 /* Xcode demo.app */;
+			productReference = 293B72862FF52403008FD4C9 /* xcode-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 293B72812FF52403008FD4C9 /* Build configuration list for PBXProject "Xcode demo" */;
+			buildConfigurationList = 293B72812FF52403008FD4C9 /* Build configuration list for PBXProject "xcode-demo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				293B72852FF52403008FD4C9 /* Xcode demo */,
+				293B72852FF52403008FD4C9 /* xcode-demo */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		293B72812FF52403008FD4C9 /* Build configuration list for PBXProject "Xcode demo" */ = {
+		293B72812FF52403008FD4C9 /* Build configuration list for PBXProject "xcode-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				293B728F2FF5240D008FD4C9 /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		293B72912FF5240D008FD4C9 /* Build configuration list for PBXNativeTarget "Xcode demo" */ = {
+		293B72912FF5240D008FD4C9 /* Build configuration list for PBXNativeTarget "xcode-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				293B72922FF5240D008FD4C9 /* Debug */,
