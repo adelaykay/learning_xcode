@@ -9,21 +9,62 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         ZStack {
-            Color(.black)
+            Color(.systemMint)
                 .ignoresSafeArea()
-            VStack {
+            VStack(alignment: .leading, spacing: 20){
                 Image("cat_image")
                     .resizable()
-                    .cornerRadius(15)
                     .aspectRatio(contentMode: .fit)
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                Text("Tabby")
-                    .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
-                    .fontWeight(.semibold)
-                    .foregroundColor(Color.white)
+                    .cornerRadius(15)
+                
+                HStack {
+                    
+                    Text("Tabby")
+                        .font(.title)
+                        .fontWeight(.bold)
+                    
+                    Spacer()
+                    
+                    VStack{
+                        HStack{
+                            Image(systemName: "star.fill")
+                            Image(systemName: "star.fill")
+                            Image(systemName: "star.fill")
+                            Image(systemName: "star.fill")
+                            Image(systemName: "star.leadinghalf.filled")
+                        }
+                        Text("(Reviews 361)")
+                    }
+                    .foregroundColor(.orange)
+                    .font(.caption)
+                    
+                    }
+                
+                
+                Text("Dark grey tabby cat with orange eyes looking amazed.")
+                
+                HStack {
+                    Spacer()
+                    Image(systemName: "fork.knife")
+                    Image(systemName: "binoculars.fill")
+                }
+                .foregroundColor(.gray)
+                .font(.caption)
             }
+            .padding()
+            .background(Rectangle()
+                .foregroundColor(
+                    .white
+                ).cornerRadius(20)
+                .shadow(radius: 15)
+            )
+            .padding()
         }
+        
+        
+        
     }
 }
 
