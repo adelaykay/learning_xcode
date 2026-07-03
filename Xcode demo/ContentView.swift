@@ -11,60 +11,59 @@ struct ContentView: View {
     var body: some View {
         
         ZStack {
-            Color(.systemMint)
+            Image("background-cloth")
+                .resizable()
                 .ignoresSafeArea()
-            VStack(alignment: .leading, spacing: 20){
-                Image("cat_image")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(15)
+            
+            VStack {
+                Spacer()
                 
-                HStack {
-                    
-                    Text("Tabby")
-                        .font(.title)
-                        .fontWeight(.bold)
-                    
+                Image("logo")
+                
+                Spacer()
+                
+                HStack() {
                     Spacer()
-                    
-                    VStack{
-                        HStack{
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.leadinghalf.filled")
-                        }
-                        Text("(Reviews 361)")
-                    }
-                    .foregroundColor(.orange)
-                    .font(.caption)
-                    
-                    }
-                
-                
-                Text("Dark grey tabby cat with orange eyes looking amazed.")
-                
-                HStack {
+                    Image("card2")
                     Spacer()
-                    Image(systemName: "fork.knife")
-                    Image(systemName: "binoculars.fill")
+                    Image("card3")
+                    Spacer()
                 }
-                .foregroundColor(.gray)
-                .font(.caption)
+                
+                Spacer()
+                
+                Image("button")
+                
+                Spacer()
+                
+                HStack {
+                    Spacer()
+                    VStack {
+                        Text("Player")
+                            .padding(.bottom, 10.0)
+                            .font(.headline)
+                        Text("0")
+                            .font(.largeTitle)
+                    }
+                    Spacer()
+                    
+                    VStack {
+                        Text("CPU")
+                            .font(.headline)
+                            .padding(.bottom, 10.0)
+                            
+                            
+                            
+                        Text("0")
+                            .font(.largeTitle)
+                    }
+                    
+                    Spacer()
+                }
+                .foregroundColor(.white)
+                Spacer()
             }
-            .padding()
-            .background(Rectangle()
-                .foregroundColor(
-                    .white
-                ).cornerRadius(20)
-                .shadow(radius: 15)
-            )
-            .padding()
         }
-        
-        
-        
     }
 }
 
