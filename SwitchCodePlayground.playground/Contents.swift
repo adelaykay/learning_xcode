@@ -50,3 +50,27 @@ func DoAddWithUnderscoreLabels(_ num1: Int, _ num2: Int) -> Int {
 
 let result3 = DoAddWithUnderscoreLabels(2, 3)
 print(result3)
+
+func findGreatest(_ num1: Int, _ num2: Int, _ num3: Int) {
+    if num1 > num2 {
+        print(String(num1) + " is greater than " + String(num2))
+        if num1 > num3 {
+            print(String(num1) + " is greater than " + String(num3))
+            print("Therefore " + String(num1) + " is the greatest.")
+        }
+        else {
+            print("But " + String(num3) + " is the greatest of the three.")
+        }
+    }
+    else if num2 > 3 {
+        print(String(num2) + " is greater than " + String(num1) + " & " + String(num3))
+        print("Therefore " + String(num2) + " is the greatest.")
+    }
+    else {
+        print(String(num3) + " is greater than " + String(num1) + " & " + String(num2))
+        print("Therefore " + String(num3) + " must be the greatest.")
+    }
+}
+
+findGreatest(1, 4, 3)
+
